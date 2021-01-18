@@ -88,7 +88,6 @@ namespace SendMailApp
                 {
                     //sc.Send(msg);   //送信
                     sc.SendMailAsync(msg);
-
                 }
 
             }
